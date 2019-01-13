@@ -9,7 +9,7 @@ def recursive_bsearch(test, first, last, guess):
     last = middle - 1 
    return recursive_bsearch(test, first, last, guess) 
    
-  test = [4, 13, 22, 27, 39, 42, 50, 56, 73, 88, 99, 191] 
+  test = [3, 15, 25, 29, 36, 42, 53, 59, 74, 82, 96, 190] 
   position = - 1 
   first = 0
   last = len(test) - 1 
