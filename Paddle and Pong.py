@@ -1,3 +1,6 @@
+# SRC - Try to make the ball hit the walls and paddle cleanly,
+# ie, so it does not go off the screen or overlap the paddle.
+
 import pygame
 
 pygame.init()

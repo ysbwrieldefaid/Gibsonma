@@ -1,3 +1,5 @@
+# SRC - Please add Pseudocode comments (see below)
+
 import pygame, random, math
 
 BLACK = (0,0,0)
@@ -20,6 +22,7 @@ class snow(pygame.sprite.Sprite):
         self.rect.x = random.randrange(0, 600)
         self.rect.y = random.randrange(0, 400)
         self.speed = speed
+    #end procedure (example)
 
     def update(self):
         self.rect.y = self.rect.y + self.speed
