@@ -1,3 +1,6 @@
+# SRC - The indentation is all wrong here!
+# Spend some time making this work.
+
 def recursive_bsearch(test, first, last, guess): 
   middle = (first+last) // 2 
   if test[middle] == guess:
