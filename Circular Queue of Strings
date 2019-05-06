@@ -1,0 +1,37 @@
+def enQueue(size, rear, input, max_size):
+    if size == max_size:
+        print("Queue is full")
+    else:
+        my_queue[rear] = input
+        rear = rear + 1
+
+def deQueue(size, front):
+    if size == 0:
+        print("Queue is empty")
+    else:
+        print(front)
+        front = front + 1
+        
+def isFull(size, max_size):
+    full = False
+    if size == max_size:
+        full = True
+    return full
+
+def isEmplty(size):
+    empty = False
+    if size == 0:
+        empty = True
+    return empty      
+
+def printQueue(my_Queue):
+    print(my_Queue)
+
+def sizeQueue(rear, front):
+    return (rear - front + 1) % 5
+
+my_Queue = []
+front = 0
+max_size = 4
+rear = -1
+size = sizeQueue(rear, front)
